@@ -12,6 +12,12 @@ make first-run
 make serve
 ```
 
+Now, you can go to `http://localhost:8000` in your browser to see your local wiki.
+
+![screenshot](public/localwiki.png)
+
+## Troubleshooting
+
 To remove the sqlite db, run
 
 ```bash
