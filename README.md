@@ -9,10 +9,17 @@ If you're on macOS, first install Homebrew on your system. Then use the Makefile
 ```bash
 make install
 make first-run
+```
+
+These commands will install dependencies, set up the database. This takes a few minutes, but thankfully you only need to do it once.
+
+Now to start a local server run,
+
+```bash
 make serve
 ```
 
-Now, you can go to `http://localhost:8000` in your browser to see your local wiki.
+And you can go to `http://localhost:8000` in your browser to see your local wiki.
 
 ![screenshot](public/localwiki.png)
 
