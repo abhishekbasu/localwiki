@@ -1,0 +1,15 @@
+[project]
+name = "localwiki"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.117.1",
+    "jinja2>=3.1.6",
+    "langchain-ollama>=0.3.8",
+    "markdown>=3.9",
+    "sqlmodel>=0.0.25",
+    "tqdm>=4.67.1",
+    "uvicorn>=0.37.0",
+]
